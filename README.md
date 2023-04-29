@@ -8,7 +8,8 @@
 4. One-hot encoding results are sparse matrix. Thus, use sparse vectors to store the results for storage save.
 5. Store the one-hot encoding results in sparse vector format
 
-##
+## One_hot_encoding_SparseV
+This directory contains four files. They are one-hot encoding results in sparse vector format from *Preprocess.ipynb*, respectively read_sparse_15, ref_sparse_15, read_sparse_20, ref_sparse_20. These four files is the input of *Minhash_Comparison_Result.ipynb*
 
 ## Minhash_Comparison_Result.ipynb
 ### This file achieves following tasks:
