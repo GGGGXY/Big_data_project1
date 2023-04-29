@@ -13,4 +13,8 @@ This directory contains four files. They are one-hot encoding results in sparse 
 
 ## Minhash_Comparison_Result.ipynb
 ### This file achieves following tasks:
-1. 
+1. Use minHash function to achieve dimensionality reduction. Three permutation numbers: 500, 1000, 2000
+2. Apply parallel function in hash function.
+3. Calculate the jaccard similarity between reads and bins and find the most similar bin for every read
+4. Compare the alignment result with the benchmark and analyze the results. Use pearson correlation and mean squared error to quantify the difference. 
+5. Try different combinations of kmer size and permutation number to explore how they influence the quality of prediction results.
