@@ -6,5 +6,10 @@
 72530 and the number of distinct kmer with kmer size = 20 is 77751
 3. Use previously created kmer lists to encode read and reference bins. For kmer size as 15, shape of reads' one-hot encoding result is 72530 * 2000; shape of reference bins' one-hot encoding result is 72530 * 500. For kmer size as 20, shape of reads' one-hot encoding result is 77751 * 2000; shape of reference bins' one-hot encoding result is 77751 * 500.
 4. One-hot encoding results are sparse matrix. Thus, use sparse vectors to store the results for storage save.
+5. Store the one-hot encoding results in sparse vector format
 
-## 
+##
+
+## Minhash_Comparison_Result.ipynb
+### This file achieves following tasks:
+1. 
